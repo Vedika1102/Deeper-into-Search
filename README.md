@@ -20,7 +20,7 @@ The problem involves a group of fairies with magical symbols arranged randomly. 
 
 ### Search Algorithm:
 
-We choose to use a modified form of Breadth-First Search (BFS) to find the solution. It maintains a priority queue (fringe) where states are sorted based on their estimated cost to the goal using the heuristic function.
+I choose to use a modified form of Breadth-First Search (BFS) to find the solution. It maintains a priority queue (fringe) where states are sorted based on their estimated cost to the goal using the heuristic function.
 The reached dictionary is used to keep track of the states that have been reached along with their estimated costs.
 The algorithm explores states in order of increasing estimated cost until it reaches the goal state.
 It uses the successor function to generate new states by swapping adjacent fairies and considers the cost of reaching each successor state.
